@@ -11,10 +11,7 @@
     background-repeat: no-repeat;
  }
  
- #section{
-   height:100%;
-   width:100%;
- }
+
     </style>
   <title>魔鏡魔鏡</title>
   <meta charset="utf-8">
@@ -48,6 +45,13 @@
  
     <div id="section">
     <h1>上傳你的照片 魔鏡將告訴你你在魔鏡心中的美貌排行</h1>
+    <a href="#" class="button alt">
+	    <form id="uploads" enctype="multipart/form-data"
+	      action="/handsome" method="post">
+	    <input type="file" name="userPhoto" value="userPhoto" />
+	    <input type="submit" name="submit" value="submit" />
+	    </form>
+	  </a>
     </div>
   </body>
 </html>
