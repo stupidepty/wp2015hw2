@@ -1,11 +1,10 @@
-div.section{
+#section{
 background-image: url("https://cloud.githubusercontent.com/assets/14309193/10958695/d4789070-83ab-11e5-9768-f0af71da1816.jpg");
 width:100%;
 float:left;
 padding:10px;
 }
-
-div.footer {
+#footer {
     background-color:black;
     color:white;
     clear:both;
